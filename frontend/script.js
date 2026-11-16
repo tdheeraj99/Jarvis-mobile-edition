@@ -6,7 +6,7 @@ if (!API_KEY) {
 }
 
 // ===== 2. SMART MODELS =====
-const MODELS = ["gemini-2.5-flash", "gemini-flash-latest"];
+const MODELS = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-3.6-flash"];
 const chat = document.getElementById('chat');
 const input = document.getElementById('msg');
 const micBtn = document.getElementById('mic-btn');
